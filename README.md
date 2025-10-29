@@ -7,7 +7,7 @@ It also elevates your thinking about architectures by letting you think at the p
 object level.
 ```
 
-`-------------------------------------------------------------------------------------------------------------`
+`-------------------------------------------------------------------------------------------------`
 
 - `HAS-A is better than IS-A i.e : composition is better than inheritance`
 
@@ -26,7 +26,7 @@ using them interchangeably is called`
 strategy pattern
 ```
 
-`-------------------------------------------------------------------------------------------------------------`
+`-------------------------------------------------------------------------------------------------`
 
 ```
 The Observer Pattern
@@ -46,7 +46,7 @@ all of its dependents are notified and updated automatically.`
 ###### 4
 `Loosely coupled principle allows us to build flexible OO systems that can handle change because they minimize the interdependency between objects.`
 
-`-------------------------------------------------------------------------------------------------------------`
+`-------------------------------------------------------------------------------------------------`
 
 ###### 5 `The Open-Closed Principle says Classes should be open for extension, but closed for modification.`
 
@@ -78,7 +78,7 @@ the component. Once you’ve got decorators, you’ve got to not only instantiat
 knows how many decorators.`
   [We have condiments as decorators to the original beverage][coffee-path]
 
-`-------------------------------------------------------------------------------------------------------------`
+`-------------------------------------------------------------------------------------------------`
 
 `When you have some code which instantiates a lot of concrete classes, when a new class of the same super type is 
 implemented, our code needs to take cognizance of the new class i.e : not closed for modification.`
