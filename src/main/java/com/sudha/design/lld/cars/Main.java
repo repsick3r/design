@@ -8,7 +8,7 @@ import com.sudha.design.lld.cars.model.Seltos;
 import java.time.LocalDateTime;
 
 public class Main {
-    public static void main(){
+    public static void main() {
         Car dzire = new Dzire(2020);
         Car seltos = new Seltos(2023);
         Car dzire2 = new Dzire(2025);

@@ -9,24 +9,23 @@ public class CarWash {
     private final ConcurrentLinkedQueue<Map.Entry<Car, Integer>> cars;
     private final AtomicInteger counter;
 
-    public CarWash(){
+    public CarWash() {
         cars = new ConcurrentLinkedQueue<>();
         counter = new AtomicInteger(0);
     }
 
-    public void enterLine(Car car){
-        if(car instanceof Seltos){
+    public void enterLine(Car car) {
+        if (car instanceof Seltos) {
             System.out.println("This " + car.getModel() + "'s car " + ((Seltos) car).sunRoofStatus());
-        }
-        else if(car instanceof Dzire){
+        } else if (car instanceof Dzire) {
             System.out.println("This " + car.getModel() + "'s car " + ((Dzire) car).electricStatus());
         }
         cars.add(new AbstractMap.SimpleEntry<>(car, counter.incrementAndGet()));
     }
 
-    public synchronized void wash(){
+    public synchronized void wash() {
         Map.Entry<Car, Integer> car = cars.poll();
-        if(car != null){
+        if (car != null) {
             System.out.println("Started washing car : " + car.getKey().getModel() + " at queue " +
                     "position " + car.getValue());
             try {
@@ -36,8 +35,7 @@ public class CarWash {
             }
             System.out.println("Finished washing car : " + car.getKey().getModel() + " at queue " +
                     "position " + car.getValue());
-        }
-        else{
+        } else {
             System.out.println("No cars are waiting for a wash!");
         }
     }
