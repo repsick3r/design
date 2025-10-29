@@ -109,6 +109,42 @@ high-level components should not depend on our low-level components; rather, the
 `So` `high-level -> low->level -> interface` `turns into` `high-level -> interface <- low-level`,
 `thus inverting dependency.`
 
+```
+guidelines
+```
+
+- `No variable should hold a reference to a concrete class, use a factory do this.`
+- `No method should override an implemented method of its base class, as all subclasses are meant to implement that, if 
+you do so, it was not offering any abstraction in the first place`
+- `No class should derive from a concrete class, depend on an abstraction`
+
+`-------------------------------------------------------------------------------------------------`
+
+```
+Abstract Factory Pattern
+```
+
+`provides an interface for creating families of related or dependent objects without specifying their concrete classes.`
+
+`In factory pattern, you use subclasses to do your creation for us, clients are decoupled from concrete type`
+
+`In abstract factory pattern we have an abstract type for creating a family of products. Subclasses of this type define 
+how those products are produced. To use the factory, you instantiate one and pass it into some code that is written 
+against the abstract type. So, like Factory Method, my clients are decoupled from the actual concrete products they 
+use.`
+
+`use whenever you have families of products you need to create and you want to make sure your clients create products 
+that belong together`
+
+`use factory method when you want to decouple your client code from the concrete classes you need to instantiate, or if 
+you don’t know ahead of time all the concrete classes you are going to need. To use me, just subclass me and implement 
+my factory method!`
+
+`Factory Method relies on inheritance: object creation is delegated to subclasses which implement the factory method to
+create objects.`
+`Abstract Factory relies on object composition: object creation is implemented in methods exposed in the factory 
+interface.`
+
 
 [duck-path]: src/main/java/com/sudha/design/lld/ducks
 
