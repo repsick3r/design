@@ -1,4 +1,4 @@
-package com.sudha.design.lld.weather.model;
+package com.sudha.design.lld.weather;
 
 import com.sudha.design.lld.weather.model.classes.CurrentConditionsDisplay;
 import com.sudha.design.lld.weather.model.classes.HeatDisplay;

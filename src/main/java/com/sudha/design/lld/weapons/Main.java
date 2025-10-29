@@ -1,4 +1,4 @@
-package com.sudha.design.lld.weapons.model;
+package com.sudha.design.lld.weapons;
 
 import com.sudha.design.lld.weapons.model.character.*;
 import com.sudha.design.lld.weapons.model.character.Character;
