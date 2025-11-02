@@ -145,6 +145,18 @@ create objects.`
 `Abstract Factory relies on object composition: object creation is implemented in methods exposed in the factory 
 interface.`
 
+`-------------------------------------------------------------------------------------------------`
+
+
+[Singleton Pattern](/src/main/java/com/sudha/design/lld/chocolate/Singleton.md)
+
+
+`-------------------------------------------------------------------------------------------------`
+
+- `Facade pattern makes interfaces simpler`
+- `Decorator pattern adds responsibility to existing class`
+- `Adapter converts one interface to another`
+
 
 [duck-path]: src/main/java/com/sudha/design/lld/ducks
 
