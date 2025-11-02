@@ -9,7 +9,7 @@ of subsystem easier`
 in their intent, adapter intends to alter the adaptee to match an interface the client is expecintg, but the 
 facade pattern is trying to provide a simplified interface to a subsystem`
 
-![Facade Pattern](/images/Facade.png)
+![Facade Pattern](/src/main/resources/images/Facade.png)
 
 ###### 6
 `The principle of least knowledge says that talk to your immediate friends`
@@ -19,7 +19,7 @@ facade pattern is trying to provide a simplified interface to a subsystem`
 - `any object the method creates or instantiates`
 - `any components of the object`
 
-![Allowed usages](/images/Demeter.png)
+![Allowed usages](/src/main/resources/images/Demeter.png)
 
 `Basically means, when designing an object, we should be careful of how many classes it interacts with and the way it 
 does that. This also achieves the higher goal of loose coupling across the system.`

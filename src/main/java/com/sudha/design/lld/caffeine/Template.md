@@ -5,7 +5,7 @@ Template pattern
 `defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template method lets subclasses
 redefine certains steps of an algorithm without changing the algorithm's structure`
 
-![Template pattern](/images/Template.png)
+![Template pattern](/src/main/resources/images/Template.png)
 
 `we leave some methods empty or default instead of abstract, so that subclasses have the option to do something extra
 but also not compulsorily, these are called hooks`
