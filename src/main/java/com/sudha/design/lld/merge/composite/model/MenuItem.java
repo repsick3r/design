@@ -10,10 +10,10 @@ public class MenuItem extends MenuComponent{
         return new NullIterator();
     }
 
-    private String name;
-    private String description;
-    private double price;
-    private boolean vegetarian;
+    private final String name;
+    private final String description;
+    private final double price;
+    private final boolean vegetarian;
 
     public MenuItem(String name, String description, double price, boolean vegetarian) {
         this.name = name;

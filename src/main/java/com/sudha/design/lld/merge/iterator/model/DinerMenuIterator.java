@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class DinerMenuIterator implements Iterator {
-    private ArrayList items;
+    private final ArrayList items;
     private int counter = 0;
 
     public DinerMenuIterator(ArrayList items) {

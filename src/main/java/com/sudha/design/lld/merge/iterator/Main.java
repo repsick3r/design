@@ -8,7 +8,7 @@ import com.sudha.design.lld.merge.iterator.model.MenuItem;
 import java.util.Iterator;
 
 public class Main {
-    public static void main() {
+    static void main() {
         DinerMenu dinerMenu = new DinerMenu();
         BreakFastMenu breakFastMenu = new BreakFastMenu();
         breakFastMenu.addItem("Poori", "Deep fried flour shell", 50.70, true);

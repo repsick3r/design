@@ -22,7 +22,7 @@ public class Waitress {
             try{
                 if (menuComponent.isVegetarian()) menuComponent.print("");
             }
-            catch (UnsupportedOperationException _) {};
+            catch (UnsupportedOperationException _) {}
         }
     }
 }
