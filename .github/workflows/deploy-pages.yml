@@ -21,18 +21,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Copy images to the dist directory
-      - name: Setup Images
-        run: |
-          mkdir -p dist/design/images
-          cp -r src/main/resources/images/* dist/design/images/
-
       # This action converts your .md files to .html
       - name: Convert Markdown to Pages
         uses: wranders/markdown-to-pages-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          out_path_not_empty: true
           # Tell it which .md files to convert
           files: |
             README.md
