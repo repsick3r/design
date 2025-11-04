@@ -21,11 +21,29 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Copy images to the dist directory
+      - name: Setup Images
+        run: |
+          mkdir -p dist/design/images
+          cp -r src/main/resources/images/* dist/design/images/
+
+      # Setup images and assets
+      - name: Setup Assets
+        run: |
+          mkdir -p dist/assets
+          cp -r src/main/resources/images dist/assets/
+
+      # Copy the entire src directory to preserve structure
+      - name: Copy Source Directory
+        run: |
+          cp -r src dist/
+
       # This action converts your .md files to .html
       - name: Convert Markdown to Pages
         uses: wranders/markdown-to-pages-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          base_url: https://repsick3r.github.io/design
           # Tell it which .md files to convert
           files: |
             README.md
