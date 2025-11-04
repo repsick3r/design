@@ -1,10 +1,11 @@
-# This is a theme that looks just like GitHub's Markdown
 theme: jekyll-theme-primer
 
-# This is the magic plugin that fixes your .md links
 plugins:
   - jekyll-relative-links
 
-# This tells Jekyll to include your 'src' folder
 include:
   - "src"
+
+name: ""
+title: null
+baseurl: /design

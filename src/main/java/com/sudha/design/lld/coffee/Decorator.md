@@ -25,4 +25,4 @@ knows how many decorators.`
 <br>
 <br>
 
-<img alt="Decorator" src="/src/main/resources/images/Decorator.png" width="40%"/>
+<img alt="Decorator" src="{{ site.baseurl }}/src/main/resources/images/Decorator.png" width="40%"/>

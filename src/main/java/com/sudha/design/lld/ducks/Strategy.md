@@ -9,4 +9,4 @@ interchangeably, delegation decides which behaviour to use
 <br>
 <br>
 
-<img alt="Strategy" src="/src/main/resources/images/Strategy.png" width="90%"/>
+<img alt="Strategy" src="{{ site.baseurl }}/src/main/resources/images/Strategy.png" width="90%"/>
