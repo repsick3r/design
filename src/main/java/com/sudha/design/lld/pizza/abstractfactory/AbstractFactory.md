@@ -28,5 +28,5 @@ interface.`
 <br>
 <br>
 
-<img alt="Abstract Factory" src="src/main/resources/images/AbstractFactory.png" width="70%"/>
+<img alt="Abstract Factory" src="/src/main/resources/images/AbstractFactory.png" width="70%"/>
 

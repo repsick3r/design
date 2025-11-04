@@ -60,7 +60,6 @@ jobs:
             src/main/java/com/sudha/design/lld/pizza/simple/SimpleFactory.md
             src/main/java/com/sudha/design/lld/pizza/factory/Factory.md
             src/main/java/com/sudha/design/lld/remote/Command.md
-            # Add any other .md files here
 
       # This is the standard GitHub action to upload the built site
       - name: Upload artifact
