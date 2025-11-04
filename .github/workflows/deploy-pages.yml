@@ -43,7 +43,7 @@ jobs:
         uses: wranders/markdown-to-pages-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          base_url: https://repsick3r.github.io/design
+          out_path_not_empty: true
           # Tell it which .md files to convert
           files: |
             README.md
