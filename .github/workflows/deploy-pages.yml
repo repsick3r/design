@@ -28,7 +28,19 @@ jobs:
           # Tell it which .md files to convert
           files: |
             README.md
-            src/main/resources/images/Strategy.md 
+            src/main/java/com/sudha/design/lld/ducks/Strategy.md
+            src/main/java/com/sudha/design/lld/merge/Composite.md
+            src/main/java/com/sudha/design/lld/merge/Iterator.md
+            src/main/java/com/sudha/design/lld/caffeine/Template.md
+            src/main/java/com/sudha/design/lld/chocolate/Singleton.md
+            src/main/java/com/sudha/design/lld/hometheatre/Facade.md
+            src/main/java/com/sudha/design/lld/coffee/Decorator.md
+            src/main/java/com/sudha/design/lld/weather/Observer.md
+            src/main/java/com/sudha/design/lld/birds/Adapter.md
+            src/main/java/com/sudha/design/lld/pizza/abstractfactory/AbstractFactory.md
+            src/main/java/com/sudha/design/lld/pizza/simple/SimpleFactory.md
+            src/main/java/com/sudha/design/lld/pizza/factory/Factory.md
+            src/main/java/com/sudha/design/lld/remote/Command.md
             # Add any other .md files here
 
       # This is the standard GitHub action to upload the built site
