@@ -9,162 +9,119 @@ object level.
 
 `-------------------------------------------------------------------------------------------------`
 
-- `HAS-A is better than IS-A i.e : composition is better than inheritance`
-
 ###### 1 `Favour composition over inheritance`
 
 ###### 2 `Encapsulate what varies`
 
 ###### 3 `Program to interfaces, not implementation`
 
-- [Duck has fly and quack behaviours which helped us with flexibility][duck-path]
+<br>
 
-`The above pattern where we made family of algorithms, Duck, FlyBehaviour and QuackBehaviour with encapsulation and 
-using them interchangeably is called`
+- [**`Strategy Pattern`**][duck-path]
 
-```
-strategy pattern
-```
 
 `-------------------------------------------------------------------------------------------------`
 
-```
-The Observer Pattern
-``` 
+###### 4 `Loosely coupled principle allows us to build flexible OO systems that can handle change because they minimize the interdependency between objects.`
 
-`defines a one-to-many dependency between objects so that when one object changes state, 
-all of its dependents are notified and updated automatically.`
+<br>
 
-[See how WeatherData is published to Display systems in a pub/sub model][weather-path]
+- [**`Observer Pattern`**][weather-path]
 
-- `The only thing the subject knows about an observer is that it implements a certain interface`
-- `We can add new observers at any time`
-- `We never need to modify the subject to add new types of observers`
-- `We can reuse subjects or observers independently of each other`
-- `Changes to either the subject or an observer will not affect the other`
-
-###### 4
-`Loosely coupled principle allows us to build flexible OO systems that can handle change because they minimize the interdependency between objects.`
 
 `-------------------------------------------------------------------------------------------------`
 
 ###### 5 `The Open-Closed Principle says Classes should be open for extension, but closed for modification.`
 
-- `Following the Open-Closed Principle usually introduces new levels of abstraction, which adds complexity to our code.
-You want to concentrate on those areas that are most likely to change in your designs and apply the principles there.`
+<br>
 
-```
-Decorator pattern
-```
-
-`
-attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative tosubclassing
-for extending functionality.
-`
-
-- `Decorators have the same supertype as the objects they decorate.`
-- `The decorator adds its own behavior either before and/or after delegating to the object it decorates to do the rest 
-of the job.`
-- `Objects can be decorated at any time, so we can decorate objects dynamically at runtime with as many decorators as
-we like.`
-- `Given that the decorator has the same supertype as the object it decorates, we can pass around a decorated object in 
-place of the original (wrapped) object.`
-- `If you have code that relies on the concrete component’s type, decorators will break that code. writing code against 
-abstract component will keep the the use of decorators transparent to your code.`
-- ` Downside : design using this pattern often result in a large number of small classes that can be overwhelming to a
-developer trying to use the Decorator-based API.`
-- `This also have the problem that introducing decorators can increase the complexity of the code needed to instantiate 
-the component. Once you’ve got decorators, you’ve got to not only instantiate the component, but also wrap it with who 
-knows how many decorators.`
-  [We have condiments as decorators to the original beverage][coffee-path]
+- [**`Decorator Pattern`**][coffee-path]
 
 `-------------------------------------------------------------------------------------------------`
 
-`When you have some code which instantiates a lot of concrete classes, when a new class of the same super type is 
-implemented, our code needs to take cognizance of the new class i.e : not closed for modification.`
+###### 6 `Dependency inversion principle says depend upon abstractions not on concrete classes i.e: reducing dependencies to concrete classes in our code is a “good thing`
 
-```
-Factory Method Pattern
-```
+- [**`Simple Factory Pattern`**][pizza-simple-path] 
 
-`
-defines an interface for creating an object, but lets subclasses decide which class to instantiate. 
-Factory Method lets a class defer instantiation to subclasses.
-`
+<br>
 
-- `“decides” not because the pattern allows subclasses themselves to decide at runtime, but because the creator class is
-written without knowledge of the actual products that will be created, which is decided purely by the choice of the 
-subclass that is used.`
+- [**`Factory method pattern`**][pizza-factory-path]
 
-[Look at how simple factory][pizza-simple-path] differs from [factory method pattern][pizza-factory-path]
-`createPizza abstract method which is going to be implemented can be anything, in simple factory we just compose another
-object with pizza store rather than giving this createPizza freedom`
+<br>
 
-###### 6
-`Dependency inversion principle says depend upon abstractions not on concrete classes i.e: reducing dependencies to concrete classes in our code is a “good thing`
+- [**`Abstract Factory method pattern`**][pizza-abstract-factory-path]
 
-`This sounds a lot like our `[principle](#3-program-to-interfaces-not-implementation)`but it suggests that our 
-high-level components should not depend on our low-level components; rather, they should both depend on abstractions`
+`-------------------------------------------------------------------------------------------------` 
 
-`So` `high-level -> low->level -> interface` `turns into` `high-level -> interface <- low-level`,
-`thus inverting dependency.`
-
-```
-guidelines
-```
-
-- `No variable should hold a reference to a concrete class, use a factory do this.`
-- `No method should override an implemented method of its base class, as all subclasses are meant to implement that, if 
-you do so, it was not offering any abstraction in the first place`
-- `No class should derive from a concrete class, depend on an abstraction`
+- [**`Singleton Pattern`**][chocolate-path]
 
 `-------------------------------------------------------------------------------------------------`
 
-```
-Abstract Factory Pattern
-```
-
-`provides an interface for creating families of related or dependent objects without specifying their concrete classes.`
-
-`In factory pattern, you use subclasses to do your creation for us, clients are decoupled from concrete type`
-
-`In abstract factory pattern we have an abstract type for creating a family of products. Subclasses of this type define 
-how those products are produced. To use the factory, you instantiate one and pass it into some code that is written 
-against the abstract type. So, like Factory Method, my clients are decoupled from the actual concrete products they 
-use.`
-
-`use whenever you have families of products you need to create and you want to make sure your clients create products 
-that belong together`
-
-`use factory method when you want to decouple your client code from the concrete classes you need to instantiate, or if 
-you don’t know ahead of time all the concrete classes you are going to need. To use me, just subclass me and implement 
-my factory method!`
-
-`Factory Method relies on inheritance: object creation is delegated to subclasses which implement the factory method to
-create objects.`
-`Abstract Factory relies on object composition: object creation is implemented in methods exposed in the factory 
-interface.`
+- [**`Command Pattern`**][remote-path]
 
 `-------------------------------------------------------------------------------------------------`
 
+- [**`Adapter Pattern`**][birds-path]
 
-[Singleton Pattern](/src/main/java/com/sudha/design/lld/chocolate/Singleton.md)
+`-------------------------------------------------------------------------------------------------`
 
+###### 6 `The principle of least knowledge says that talk to your immediate friends`
+
+- [**`Facade Pattern`**][hometheatre-path]
+
+`-------------------------------------------------------------------------------------------------`
+
+###### 7 `The hollywood principle states, don't calls us, we'll call you`
+
+- [**`Template pattern`**][caffeine-path]
+
+`-------------------------------------------------------------------------------------------------`
+
+###### 8 `Single responsibilty principle asks a class to have only one reason to change`
+
+- [**`Iterator pattern`**][menu-path]
+
+<br>
+
+- [**`Composite pattern`**][composite-menu-path]
 
 `-------------------------------------------------------------------------------------------------`
 
 - `Facade pattern makes interfaces simpler`
 - `Decorator pattern adds responsibility to existing class`
 - `Adapter converts one interface to another`
+- `The factory method is a specialisation of the template method`
+- `Strategy pattern encapsulates interchangeable behaviour and uses delegation to choose one`
+- `Iterator pattern provides a way to traverse collections without exposing internal implementation`
+- `Composite pattern helps client treat collection of objects and objects uniformly`
+- `Observer pattern allows a group of objects to be notified when some state changes`
 
+`-------------------------------------------------------------------------------------------------`
 
-[duck-path]: src/main/java/com/sudha/design/lld/ducks
+###### This contents of this repository are direct or indirect extractions from `Head First Design Patterns`
 
-[weather-path]: src/main/java/com/sudha/design/lld/weather
+[duck-path]: src/main/java/com/sudha/design/lld/ducks/Strategy.md
 
-[coffee-path]: src/main/java/com/sudha/design/lld/coffee
+[weather-path]: src/main/java/com/sudha/design/lld/weather/Observer.md
 
-[pizza-simple-path]: src/main/java/com/sudha/design/lld/pizza/simple
+[coffee-path]: src/main/java/com/sudha/design/lld/coffee/Decorator.md
 
-[pizza-factory-path]: src/main/java/com/sudha/design/lld/pizza/factory
+[pizza-simple-path]: src/main/java/com/sudha/design/lld/pizza/simple/SimpleFactory.md
 
+[pizza-factory-path]: src/main/java/com/sudha/design/lld/pizza/factory/Factory.md
+
+[pizza-abstract-factory-path]: src/main/java/com/sudha/design/lld/pizza/abstractfactory/AbstractFactory.md
+
+[chocolate-path]: src/main/java/com/sudha/design/lld/chocolate/Singleton.md
+
+[remote-path]: src/main/java/com/sudha/design/lld/remote/Command.md
+
+[birds-path]: src/main/java/com/sudha/design/lld/birds/Adapter.md
+
+[hometheatre-path]: src/main/java/com/sudha/design/lld/hometheatre/Facade.md
+
+[caffeine-path]: src/main/java/com/sudha/design/lld/caffeine/Template.md
+
+[menu-path]: src/main/java/com/sudha/design/lld/merge/Iterator.md
+
+[composite-menu-path]: src/main/java/com/sudha/design/lld/merge/Composite.md
