@@ -25,6 +25,7 @@ jobs:
       - name: Convert Markdown to Pages
         uses: wranders/markdown-to-pages-action@v1
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           # Tell it which .md files to convert
           files: |
             README.md
