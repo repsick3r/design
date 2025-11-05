@@ -87,6 +87,10 @@ object level.
 
 `-------------------------------------------------------------------------------------------------`
 
+- [**`State pattern`**][gumball-path]
+
+`-------------------------------------------------------------------------------------------------`
+
 - `Facade pattern makes interfaces simpler`
 - `Decorator pattern adds responsibility to existing class`
 - `Adapter converts one interface to another`
@@ -95,6 +99,7 @@ object level.
 - `Iterator pattern provides a way to traverse collections without exposing internal implementation`
 - `Composite pattern helps client treat collection of objects and objects uniformly`
 - `Observer pattern allows a group of objects to be notified when some state changes`
+- `State pattern encapsulates state-based behaviour and delegates behaviour to the current state`
 
 `-------------------------------------------------------------------------------------------------`
 
@@ -125,3 +130,5 @@ object level.
 [menu-path]: src/main/java/com/sudha/design/lld/merge/Iterator.md
 
 [composite-menu-path]: src/main/java/com/sudha/design/lld/merge/Composite.md
+
+[gumball-path]: src/main/java/com/sudha/design/lld/gumball/State.md
