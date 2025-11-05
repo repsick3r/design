@@ -13,4 +13,4 @@ object with pizza store rather than giving this createPizza freedom`
 <br>
 <br>
 
-<img alt="Factory" src="{{ site.baseurl }}/src/main/resources/images/Factory.png" width="70%"/>
+<div style="text-align: center;"><img alt="Factory" src="{{ site.baseurl }}/src/main/resources/images/Factory.png" width="70%"/></div>

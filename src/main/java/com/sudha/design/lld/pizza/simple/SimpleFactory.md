@@ -20,4 +20,4 @@ implemented, our code needs to take cognizance of the new class i.e : not closed
 <br>
 <br>
 
-<img alt="Factory" src="{{ site.baseurl }}/src/main/resources/images/SimpleFactory.png" width="70%"/>
+<div style="text-align: center;"><img alt="Factory" src="{{ site.baseurl }}/src/main/resources/images/SimpleFactory.png" width="70%"/></div>

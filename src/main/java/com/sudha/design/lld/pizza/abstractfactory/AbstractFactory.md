@@ -28,5 +28,5 @@ interface.`
 <br>
 <br>
 
-<img alt="Abstract Factory" src="{{ site.baseurl }}/src/main/resources/images/AbstractFactory.png" width="70%"/>
+<div style="text-align: center;"><img alt="Abstract Factory" src="{{ site.baseurl }}/src/main/resources/images/AbstractFactory.png" width="70%"/></div>
 

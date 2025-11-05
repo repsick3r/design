@@ -8,5 +8,5 @@ Iterator pattern provides a way to access the elements of an collection without 
 - `This also helps put the iteration logic in the iterator object removing it from the aggregate interface simplifyiing it
 and it's implementation`
 
-<img alt="Iterator" src="{{ site.baseurl }}/src/main/resources/images/Iterator.png" width="60%"/>
+<div style="text-align: center;"><img alt="Iterator" src="{{ site.baseurl }}/src/main/resources/images/Iterator.png" width="60%"/></div>
 

@@ -13,6 +13,6 @@ command object, this might be used as a queueing mechanism as well as to log req
 <br>
 <br>
 
-<img alt="Command" src="{{ site.baseurl }}/src/main/resources/images/Command.png" width="60%"/>
+<div style="text-align: center;"><img alt="Command" src="{{ site.baseurl }}/src/main/resources/images/Command.png" width="60%"/></div>
 
 

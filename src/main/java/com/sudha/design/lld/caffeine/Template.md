@@ -12,7 +12,7 @@ but also not compulsorily, these are called hooks`
 
 <br>
 
-<img alt="Template" src="{{ site.baseurl }}/src/main/resources/images/Template.png" width="60%"/>
+<div style="text-align: center;"><img alt="Template" src="{{ site.baseurl }}/src/main/resources/images/Template.png" width="60%"/></div>
 
 - `in our caffeinebeverage example, the prepare() method calls brew() abstract method of low-level subclass, so this
 reflects our hollywood principle`

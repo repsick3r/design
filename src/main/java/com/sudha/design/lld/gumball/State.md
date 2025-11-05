@@ -3,7 +3,7 @@ State pattern allows an object to alter its behaviour when internal state change
 class
 ```
 
-<img alt="State" src="{{ site.baseurl }}/src/main/resources/images/State.png" width="40%"/>
+<div style="text-align: center;"><img alt="State" src="{{ site.baseurl }}/src/main/resources/images/State.png" width="50%"/></div>
 
 
 - `even though the class diagram looks the same as strategy pattern, the intent is different as in state pattern we 

@@ -12,7 +12,7 @@ of subsystem easier
 in their intent, adapter intends to alter the adaptee to match an interface the client is expecintg, but the 
 facade pattern is trying to provide a simplified interface to a subsystem`
 
-<img alt="Facade Pattern" src="{{ site.baseurl }}/src/main/resources/images/Facade.png" width="60%"/>
+<div style="text-align: center;"><img alt="Facade Pattern" src="{{ site.baseurl }}/src/main/resources/images/Facade.png" width="60%"/></div>
 
 <br> 
 
@@ -25,6 +25,6 @@ defeating the maintainability and performance.`
 
 <br>
 
-<img alt="Allowed usages" src="{{ site.baseurl }}/src/main/resources/images/Demeter.png" width="50%"/>
+<div style="text-align: center;"><img alt="Allowed usages" src="{{ site.baseurl }}/src/main/resources/images/Demeter.png" width="50%"/></div>
 
 

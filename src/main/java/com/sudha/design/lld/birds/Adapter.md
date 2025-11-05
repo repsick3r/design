@@ -11,7 +11,7 @@ possible in java`
 
 <br> 
 
-<img alt="object adapter" src="{{ site.baseurl }}/src/main/resources/images/Adapter.png" width="70%"/>
+<div style="text-align: center;"><img alt="object adapter" src="{{ site.baseurl }}/src/main/resources/images/Adapter.png" width="70%"/></div>
 
 <br>
 
@@ -21,4 +21,4 @@ quickly override a method. object adapter has the benefit of able to work with a
 
 <br>
 
-<img alt="class adapter" src="{{ site.baseurl }}/src/main/resources/images/ClassAdapter.png" width="70%"/>
+<div style="text-align: center;"><img alt="class adapter" src="{{ site.baseurl }}/src/main/resources/images/ClassAdapter.png" width="70%"/></div>

@@ -13,4 +13,4 @@ dependents are notified and updated automatically
 <br>
 <br>
 
-<img alt="Observer" src="{{ site.baseurl }}/src/main/resources/images/Observer.png" width="50%"/>
+<div style="text-align: center;"><img alt="Observer" src="{{ site.baseurl }}/src/main/resources/images/Observer.png" width="50%"/></div>
