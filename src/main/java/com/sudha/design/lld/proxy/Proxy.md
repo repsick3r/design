@@ -19,7 +19,7 @@ Dynamic proxies are a thing in java, where we create a proxy class on the fly, b
 handlers to specify what to do when proxy methods are called as they are generated at runtime.
 ```
 
-<div style="text-align: center;"><img alt="Proxy" src="{{ site.baseurl }}/src/main/resources/images/DynamicProxy.png" width="40%"/></div>
+<div style="text-align: center;"><img alt="Proxy" src="{{ site.baseurl }}/src/main/resources/images/DynamicProxy.png" width="60%"/></div>
 
 - `there are many real life adaptions of the proxy model like the FireWall Proxy, Smart Reference Proxy, Caching Proxy,
 Copy-On-Write Proxy` 
