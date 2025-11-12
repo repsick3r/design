@@ -91,6 +91,10 @@ object level.
 
 `-------------------------------------------------------------------------------------------------`
 
+- [**`Proxy pattern`**][proxy-path]
+
+`-------------------------------------------------------------------------------------------------`
+
 - `Facade pattern makes interfaces simpler`
 - `Decorator pattern adds responsibility to existing class`
 - `Adapter converts one interface to another`
@@ -132,3 +136,5 @@ object level.
 [composite-menu-path]: src/main/java/com/sudha/design/lld/merge/Composite.md
 
 [gumball-path]: src/main/java/com/sudha/design/lld/gumball/State.md
+
+[proxy-path]: src/main/java/com/sudha/design/lld/proxy/Proxy.md
