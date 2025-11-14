@@ -111,7 +111,7 @@ object level.
 
 `-------------------------------------------------------------------------------------------------`
 
-###### This contents of this repository are direct or indirect extractions from `Head First Design Patterns`
+###### This contents of this repository are direct or indirect extractions from [`Head First Design Patterns`](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
 
 [duck-path]: src/main/java/com/sudha/design/lld/ducks/Strategy.md
 
