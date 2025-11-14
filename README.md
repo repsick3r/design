@@ -7,6 +7,8 @@ It also elevates your thinking about architectures by letting you think at the p
 object level.
 ```
 
+<a href="https://blog.codinghorror.com/head-first-design-patterns/" target="_blank" rel="noopener noreferrer">`Patterns, like all forms of complexity, should be avoided until they are absolutely necessary.`</a>
+
 `-------------------------------------------------------------------------------------------------`
 
 ###### 1 `Favour composition over inheritance`
@@ -111,7 +113,7 @@ object level.
 
 `-------------------------------------------------------------------------------------------------`
 
-###### This contents of this repository are direct or indirect extractions from [`Head First Design Patterns`](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
+###### This contents of this repository are direct or indirect extractions from <a href="https://www.oreilly.com/library/view/head-first-design/9781492077992/" target="_blank" rel="noopener noreferrer">`Head First Design Patterns`</a>
 
 [duck-path]: src/main/java/com/sudha/design/lld/ducks/Strategy.md
 
