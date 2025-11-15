@@ -32,9 +32,9 @@ Chain of Responsibility Pattern when you want to give more than one object a cha
 otherwise, it forwards the request to its successor.`
 
 
-<div style="text-align: center;"><img alt="COR" src="{{ site.baseurl }}/src/main/resources/images/COR.png" width="40%"/></div>
+<div style="text-align: center;"><img alt="COR" src="{{ site.baseurl }}/src/main/resources/images/COR.png" width="50%"/></div>
 
-<div style="text-align: center;"><img alt="COR2" src="{{ site.baseurl }}/src/main/resources/images/COR2.png" width="50%"/></div>
+<div style="text-align: center;"><img alt="COR2" src="{{ site.baseurl }}/src/main/resources/images/COR2.png" width="60%"/></div>
 
 <br>
 
@@ -48,7 +48,7 @@ Tree, and a client object that maintains the state of all trees`
   the other instances.`
 
 
-<div style="text-align: center;"><img alt="Flyweight" src="{{ site.baseurl }}/src/main/resources/images/Flyweight.png" width="40%"/></div>
+<div style="text-align: center;"><img alt="Flyweight" src="{{ site.baseurl }}/src/main/resources/images/Flyweight.png" width="50%"/></div>
 
 <br>
 
@@ -60,7 +60,7 @@ Interpreter Pattern to build an interpreter for a language.
 - `grammar is easily extendable as it is represented by classes, methods can easily add additional functionality`
   - `can become cumbersome quickly when the number of rules become large`
 
-<div style="text-align: center;"><img alt="Interpreter" src="{{ site.baseurl }}/src/main/resources/images/Interpreter.png" width="40%"/></div>
+<div style="text-align: center;"><img alt="Interpreter" src="{{ site.baseurl }}/src/main/resources/images/Interpreter.png" width="50%"/></div>
 
 <br>
 
@@ -73,7 +73,7 @@ talk with the mediator`
 - `simplifies and reduces the variety of messages sent between objects in the system.`
   - `without proper design, the Mediator object itself can become overly complex.`
 
-<div style="text-align: center;"><img alt="Mediator" src="{{ site.baseurl }}/src/main/resources/images/Mediator.png" width="20%"/></div>
+<div style="text-align: center;"><img alt="Mediator" src="{{ site.baseurl }}/src/main/resources/images/Mediator.png" width="25%"/></div>
 
 
 <br>
@@ -107,4 +107,4 @@ parse through the composite and the visitor collects state, once state has been 
 visitor perform various operations on the state.`
 - `When new functionality is required, only the visitor must be enhanced.`
 
-<div style="text-align: center;"><img alt="Visitor" src="{{ site.baseurl }}/src/main/resources/images/Visitor.png" width="60%"/></div>
+<div style="text-align: center;"><img alt="Visitor" src="{{ site.baseurl }}/src/main/resources/images/Visitor.png" width="70%"/></div>
