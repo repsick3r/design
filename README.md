@@ -9,6 +9,8 @@ object level.
 
 <a href="https://blog.codinghorror.com/head-first-design-patterns/" target="_blank" rel="noopener noreferrer">`Patterns, like all forms of complexity, should be avoided until they are absolutely necessary.`</a>
 
+[`GOF`][gof-path]
+
 `-------------------------------------------------------------------------------------------------`
 
 ###### 1 `Favour composition over inheritance`
@@ -101,6 +103,10 @@ object level.
 
 `-------------------------------------------------------------------------------------------------`
 
+[`Some more patterns`][addendum-path]
+
+`-------------------------------------------------------------------------------------------------`
+
 - `Facade pattern makes interfaces simpler`
 - `Decorator pattern adds responsibility to existing class`
 - `Adapter converts one interface to another`
@@ -113,7 +119,10 @@ object level.
 
 `-------------------------------------------------------------------------------------------------`
 
+[**`Additional Reading`**][references]
+
 ###### This contents of this repository are direct or indirect extractions from <a href="https://www.oreilly.com/library/view/head-first-design/9781492077992/" target="_blank" rel="noopener noreferrer">`Head First Design Patterns`</a>
+
 
 [duck-path]: src/main/java/com/sudha/design/lld/ducks/Strategy.md
 
@@ -146,3 +155,9 @@ object level.
 [proxy-path]: src/main/java/com/sudha/design/lld/proxy/Proxy.md
 
 [mvc-path]: src/main/java/com/sudha/design/lld/compound/compound.md
+
+[gof-path]: src/main/java/com/sudha/design/lld/GOF.md
+
+[addendum-path]: src/main/java/com/sudha/design/lld/Addendum.md
+
+[references]: src/main/java/com/sudha/design/lld/References.md
