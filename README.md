@@ -123,6 +123,10 @@ object level.
 
 ###### This contents of this repository are direct or indirect extractions from <a href="https://www.oreilly.com/library/view/head-first-design/9781492077992/" target="_blank" rel="noopener noreferrer">`Head First Design Patterns`</a>
 
+`-------------------------------------------------------------------------------------------------`
+
+[**`Code on GitHub`**](https://github.com/repsick3r/design)
+
 
 [duck-path]: src/main/java/com/sudha/design/lld/ducks/Strategy.md
 
